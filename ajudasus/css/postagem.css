@@ -1,0 +1,202 @@
+/* estilos gerais */
+label {
+  color: #424242;
+}
+
+input {
+  height: 26px;
+}
+
+/* titulo da página */
+.title-publicacoes {
+  width: 100%;
+  background: #4fb7d4;
+  text-align: center;
+  color: white;
+}
+
+/* realizar o cadastro das publicações */
+.container-publicar {
+  max-width: 1200px;
+  margin: 30px auto 15px auto;
+  padding: 15px;
+}
+
+.container-publicar h2 {
+  color: #60afc5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-publicar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wd {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.wd input {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #8d8d8d;
+  border-radius: 4px;
+}
+
+.input-id-cadastrar input {
+  width: 85px;
+}
+
+.input-titulo-cadastrar input {
+  width: 40%;
+}
+
+.input-autor-cadastrar input {
+  width: 40%;
+}
+
+.input-conteudo-cadastrar textarea {
+  width: 50%;
+  height: 90px;
+  padding: 5px;
+  border: 1px solid #8d8d8d;
+  border-radius: 4px;
+}
+
+.btn-publicar {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background: #3094b0;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .input-titulo-cadastrar input {
+    text-align: center;
+    width: 60%;
+  }
+
+  .input-autor-cadastrar input {
+    width: 60%;
+  }
+
+  .input-conteudo-cadastrar textarea {
+    width: 95%;
+    height: 100px;
+  }
+}
+
+.form-editar-publicacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-id-publicacoes {
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+
+.input-id-publicacoes input {
+  width: 85px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #8d8d8d;
+  border-radius: 3px;
+}
+
+.input-data-incio-publicacoes {
+  margin-right: 8px;
+}
+
+.input-data-incio-publicacoes input,
+.input-data-fim-publicacoes input {
+  text-align: center;
+  border: 1px solid #8d8d8d;
+  border-radius: 4px;
+}
+
+.container-btn {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .input-data-incio-publicacoes {
+    margin-right: 4px;
+    margin-bottom: 5px;
+  }
+}
+
+.publicacao {
+  padding: 15px;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 4px;
+}
+
+.autor-publicacao {
+  color: black;
+  font-size: 0.8em;
+  margin: 5px 0 10px 0;
+}
+
+.editar {
+  font-size: 1.5em;
+  color: #3094b0;
+  margin-right: 30px;
+}
+
+.excluir {
+  font-size: 1.5em;
+  color: #dd4068;
+}
+
+.btn-atualizar {
+  margin: 15px 15px 0 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background: #3094b0;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background: #dd404d;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-atualizar {
+    margin: 15px 0 0 0;
+  }
+}
+
+.input-id-editar input {
+  width: 100px;
+}

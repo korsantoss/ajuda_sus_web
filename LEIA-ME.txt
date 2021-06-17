@@ -1,0 +1,18 @@
+Versão pré-release do ajudasus
+Deve ser usado utilizando o XAMPP
+
+COMO UTILIZAR -
+
+1 - Abrir a pasta SQL SCRIPTS e executar as querys nessa ordem:
+	-ajudasus-criação.sql
+	-ajudasus-insert.sql
+	Isso irá criar a database e inserir os valores nela.
+
+	1.1 - Alternativamente, execute o arquivo ajudasus_bkp.sql.
+	Esse é um arquivo criado automaticamente pelo MySQL Workbench 
+
+2 - Abra o arquivo conexao.php na pasta ajudasus_proc, e mude os campos user e senha (host também se necessário).
+
+3 - Após salvo, coloque a pasta ajudasus dentro da pasta publica do xampp (htdocs) e a ajudasus_proc na pasta raiz do xampp.
+
+4 - Feito!
